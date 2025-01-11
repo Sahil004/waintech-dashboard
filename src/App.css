@@ -1,0 +1,200 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.main-color {
+  color: #379330!important;
+}
+
+/* header  */
+.navbar-brand img {
+  width: 200px;
+}
+
+.offcanvas {
+  width: 300px !important;
+}
+
+nav,
+.sidebar-title {
+  height: 10vh;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.offcanvas-header {
+  height: 10vh;
+}
+
+
+
+/* Sidebar */
+
+.sidebar {
+  background-color: white;
+  height: 100vh;
+}
+
+.sidebar-body {
+  height: 90vh;
+}
+
+.li-border {
+  border-radius: 5px;
+}
+
+.dashboard-item {
+  border: none !important;
+  border-radius: 5px;
+  font-size: 0.875;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-item:hover,
+.dashboard-item:focus,
+.dashboard-item:active {
+  color: #379330 !important;
+
+  background-color: #E4F3E4 !important;
+}
+
+.dashboard-item:focus {
+  font-weight: 600;
+}
+
+.dashboard-sub-item {
+  border: none !important;
+}
+
+.dashboard-sub-item:hover,
+.dashboard-sub-item:focus {
+  color: #379330 !important;
+  background-color: transparent !important;
+}
+
+/* main */
+
+.main {
+  height: 90vh;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(238, 242, 246) !important;
+  margin-right: 10px;
+}
+
+/* Table */
+
+.sticky-header thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
+}
+
+.table-container {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem !important;
+}
+
+.action-btn {
+  border: none !important;
+  cursor: pointer;
+}
+
+.action-btn:hover {
+  opacity: 0.8 !important;
+}
+
+/* Client Component */
+
+/* Invoice */
+/* create invoice */
+
+.create-invoice label {
+  color: rgb(105, 117, 134) !important;
+  font-size: 0.875rem;
+}
+
+/*  Services */
+
+.card {
+  background-color: #F8FAFC!important;
+}
+.service-title {
+  color :#379330!important;
+  margin-bottom: 0;
+}
+
+.text-grey {
+  color: rgb(105, 117, 134) !important;
+  
+}
+
+.service-code {
+  font-size: 0.875rem;
+}
+
+
+.service-edit-btn {
+  border: 1px solid #379330!important;
+}
+
+/* Dashboard OVerview */
+
+.dashboard-overview {
+  margin-top: 20px;
+}
+
+.overview-metrics {
+  display: flex;
+  gap: 20px;
+}
+
+.metric-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.metric-card h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.metric-card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #4CAF50;
+}

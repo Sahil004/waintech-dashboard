@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.dashboard-form .form-control {
+    padding: 14.5px 14px!important;
+    font-size: 1rem;
+    background: rgb(248, 250, 252);
+    border: 1px solid grey;
+}
+.dashboard-form .form-control:hover, 
+.dashboard-form .form-select:hover {
+    box-shadow: none!important;
+    border: 1px solid #379330!important;
+    box-shadow: none!important;
+}
+
+.dashboard-form .form-control:focus, 
+.dashboard-form .form-select:focus {
+    box-shadow: none!important;
+    border: 1px solid #379330!important;
+}
+
+.dashboard-form .form-select {
+    padding: 14.5px 14px!important;
+    border: 1px solid grey;
+}
+
+textarea {
+    resize: none!important;
+}
+
+
